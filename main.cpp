@@ -26,21 +26,21 @@ int main()
 
     sf::SoundBuffer soundo;
     sf::SoundBuffer soundi;
-    soundo.loadFromFile("C:/Users/Aleksije/Desktop/n.wav");
-    soundi.loadFromFile("C:/Users/Aleksije/Desktop/m.wav");
+   // soundo.loadFromFile("C:/Users/Aleksije/Desktop/n.wav");
+   // soundi.loadFromFile("C:/Users/Aleksije/Desktop/m.wav");
 
     sf::Music muzika;
-    muzika.openFromFile("C:/Users/Aleksije/Desktop/The Prodigy, Pendulum - Voodoo People - Pendulum Mix.flac");
-    muzika.play();
-    muzika.setLoop(true);
+  //  muzika.openFromFile("C:/Users/Aleksije/Desktop/The Prodigy, Pendulum - Voodoo People - Pendulum Mix.flac");
+  //  muzika.play();
+  //  muzika.setLoop(true);
     float pic = 1;
     float vol = 1;
-    float glasnoca = muzika.getVolume();
+  //  float glasnoca = muzika.getVolume();
 
     sf::Sound sound;
     sf::Sound soumd;
-    sound.setBuffer(soundo);
-    soumd.setBuffer(soundi);
+  //  sound.setBuffer(soundo);
+   // soumd.setBuffer(soundi);
 
 
     int i1 = 0;
