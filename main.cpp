@@ -278,7 +278,7 @@ int main()
        muzika.setPitch(pic);
        muzika.setVolume(vol);
 
-       std::cout << glasnoca << std::endl;
+      // std::cout << glasnoca << std::endl;
 
 
 
