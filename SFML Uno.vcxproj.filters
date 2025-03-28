@@ -18,18 +18,15 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Metak.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="PowerUp.h">
+    <ClCompile Include="Mapa.h">
       <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Metak.h">
+    <ClInclude Include="Blok.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Igrac.h">
+    <ClInclude Include="Prozor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

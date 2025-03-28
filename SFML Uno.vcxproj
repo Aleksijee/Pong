@@ -24,7 +24,7 @@
     <ProjectGuid>{a0eb4812-ad7e-45be-ac94-029f0d58f57e}</ProjectGuid>
     <RootNamespace>SFMLUno</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Pong</ProjectName>
+    <ProjectName>Tetris</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -144,12 +144,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Metak.cpp" />
-    <ClCompile Include="PowerUp.h" />
+    <ClCompile Include="Mapa.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Igrac.h" />
-    <ClInclude Include="Metak.h" />
+    <ClInclude Include="Blok.h" />
+    <ClInclude Include="Prozor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
